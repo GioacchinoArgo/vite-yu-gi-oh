@@ -13,7 +13,6 @@ export default {
 footer {
     background-color: #333;
     height: 100px;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
