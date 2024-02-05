@@ -1,16 +1,16 @@
 <script>
 import AppHeader from './components/AppHeader.vue'
+import AppFooter from './components/AppFooter.vue'
 export default {
   name: 'Yugioh',
-  components: { AppHeader }
+  components: { AppHeader, AppFooter }
 }
 </script>
 
 <template>
   <AppHeader />
 
-  <footer>
-  </footer>
+  <AppFooter />
 </template>
 
 <style lang="scss"></style>
